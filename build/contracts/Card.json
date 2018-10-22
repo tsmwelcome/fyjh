@@ -1,0 +1,3601 @@
+{
+  "contractName": "Card",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "name",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_spender",
+          "type": "address"
+        },
+        {
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "approve",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "cost",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "totalSupply",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_from",
+          "type": "address"
+        },
+        {
+          "name": "_to",
+          "type": "address"
+        },
+        {
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "transferFrom",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "note",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "totalAmount",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "rareType",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "cardCategory",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "_who",
+          "type": "address"
+        }
+      ],
+      "name": "balanceOf",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "attackValue",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "backImgUrl",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "id",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "frontImgUrl",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "speed",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "cardList",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "effect",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "_owner",
+          "type": "address"
+        },
+        {
+          "name": "_spender",
+          "type": "address"
+        }
+      ],
+      "name": "allowance",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "defenseValue",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "owner",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "name": "spender",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "Approval",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "from",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "name": "to",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "Transfer",
+      "type": "event"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "value",
+          "type": "uint8"
+        }
+      ],
+      "name": "setDefenseValue",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "target",
+          "type": "address"
+        }
+      ],
+      "name": "attack",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "target",
+          "type": "address"
+        }
+      ],
+      "name": "defend",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "owner",
+          "type": "address"
+        }
+      ],
+      "name": "list",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_to",
+          "type": "address"
+        },
+        {
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "transfer",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "from",
+          "type": "address"
+        },
+        {
+          "name": "to",
+          "type": "address"
+        },
+        {
+          "name": "cardId",
+          "type": "uint8"
+        }
+      ],
+      "name": "transfer",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "pragma solidity ^0.4.23;\n\nimport 'zeppelin-solidity/contracts/token/ERC20/ERC20.sol';\nimport './Effect.sol';\n\ncontract Card is ERC20  {\n    enum    CardType {Fellow,Strategy,Tool}\n    enum    Rarity {Standard,Normal,Uncommon,OutStanding,Unique}\n    uint    public  id;\n    Effect  public  effect;\n    string  public  frontImgUrl;\n    string  public  backImgUrl;\n    uint8   public  attackValue;\n    uint8   public  defenseValue;\n    uint8   public  speed;\n    uint8   public  cost;   // how much food the card cost when it was played into the battle ground\n    string  public  name;\n    string  public  note;\n    CardType   public  cardCategory;\n    Rarity  public  rareType;\n\n    uint8[]    public  totalAmount;    //save each standard cards total supply amount;\n    uint8[]    public   cardList;    //save standard card's id;\n\n    mapping (address => CardHolder)  playerCardsCount;   //save each player's card amount\n    mapping (uint8 => uint8)    cardAvailable;  //save each card's remain amount;\n\n    struct CardHolder {\n        uint8   cardId;\n        uint8   amount;\n    }\n\n    constructor() internal {\n\n    }\n\n    function setDefenseValue(uint8 value) public {\n        defenseValue=value;\n    }\n\n    function attack(Card target) public{\n        //attack target card\n        require(target.defenseValue() > 0);\n        if(target.defenseValue() > this.attackValue()){\n            target.setDefenseValue(target.defenseValue() - this.attackValue());\n        }\n    }\n\n    function defend(Card target) public{\n        //defend target card\n    }\n\n    function list(address owner) public{\n        // return the owner's card\n    }\n\n    function transfer(address from, address to, uint8 cardId) public{\n        // transfer card to some one\n    }\n}\n",
+  "sourcePath": "/Users/tangshumin/learn/fyjh/contracts/Card.sol",
+  "ast": {
+    "absolutePath": "/Users/tangshumin/learn/fyjh/contracts/Card.sol",
+    "exportedSymbols": {
+      "Card": [
+        130
+      ]
+    },
+    "id": 131,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".23"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:0"
+      },
+      {
+        "absolutePath": "zeppelin-solidity/contracts/token/ERC20/ERC20.sol",
+        "file": "zeppelin-solidity/contracts/token/ERC20/ERC20.sol",
+        "id": 2,
+        "nodeType": "ImportDirective",
+        "scope": 131,
+        "sourceUnit": 238,
+        "src": "26:59:0",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/Users/tangshumin/learn/fyjh/contracts/Effect.sol",
+        "file": "./Effect.sol",
+        "id": 3,
+        "nodeType": "ImportDirective",
+        "scope": 131,
+        "sourceUnit": 152,
+        "src": "86:22:0",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 4,
+              "name": "ERC20",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 237,
+              "src": "127:5:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_ERC20_$237",
+                "typeString": "contract ERC20"
+              }
+            },
+            "id": 5,
+            "nodeType": "InheritanceSpecifier",
+            "src": "127:5:0"
+          }
+        ],
+        "contractDependencies": [
+          237,
+          269
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 130,
+        "linearizedBaseContracts": [
+          130,
+          237,
+          269
+        ],
+        "name": "Card",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "Card.CardType",
+            "id": 9,
+            "members": [
+              {
+                "id": 6,
+                "name": "Fellow",
+                "nodeType": "EnumValue",
+                "src": "158:6:0"
+              },
+              {
+                "id": 7,
+                "name": "Strategy",
+                "nodeType": "EnumValue",
+                "src": "165:8:0"
+              },
+              {
+                "id": 8,
+                "name": "Tool",
+                "nodeType": "EnumValue",
+                "src": "174:4:0"
+              }
+            ],
+            "name": "CardType",
+            "nodeType": "EnumDefinition",
+            "src": "140:39:0"
+          },
+          {
+            "canonicalName": "Card.Rarity",
+            "id": 15,
+            "members": [
+              {
+                "id": 10,
+                "name": "Standard",
+                "nodeType": "EnumValue",
+                "src": "200:8:0"
+              },
+              {
+                "id": 11,
+                "name": "Normal",
+                "nodeType": "EnumValue",
+                "src": "209:6:0"
+              },
+              {
+                "id": 12,
+                "name": "Uncommon",
+                "nodeType": "EnumValue",
+                "src": "216:8:0"
+              },
+              {
+                "id": 13,
+                "name": "OutStanding",
+                "nodeType": "EnumValue",
+                "src": "225:11:0"
+              },
+              {
+                "id": 14,
+                "name": "Unique",
+                "nodeType": "EnumValue",
+                "src": "237:6:0"
+              }
+            ],
+            "name": "Rarity",
+            "nodeType": "EnumDefinition",
+            "src": "184:60:0"
+          },
+          {
+            "constant": false,
+            "id": 17,
+            "name": "id",
+            "nodeType": "VariableDeclaration",
+            "scope": 130,
+            "src": "249:18:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 16,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "249:4:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 19,
+            "name": "effect",
+            "nodeType": "VariableDeclaration",
+            "scope": 130,
+            "src": "273:22:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_Effect_$151",
+              "typeString": "contract Effect"
+            },
+            "typeName": {
+              "contractScope": null,
+              "id": 18,
+              "name": "Effect",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 151,
+              "src": "273:6:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Effect_$151",
+                "typeString": "contract Effect"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 21,
+            "name": "frontImgUrl",
+            "nodeType": "VariableDeclaration",
+            "scope": 130,
+            "src": "301:27:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 20,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "301:6:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 23,
+            "name": "backImgUrl",
+            "nodeType": "VariableDeclaration",
+            "scope": 130,
+            "src": "334:26:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 22,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "334:6:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 25,
+            "name": "attackValue",
+            "nodeType": "VariableDeclaration",
+            "scope": 130,
+            "src": "366:27:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint8",
+              "typeString": "uint8"
+            },
+            "typeName": {
+              "id": 24,
+              "name": "uint8",
+              "nodeType": "ElementaryTypeName",
+              "src": "366:5:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint8",
+                "typeString": "uint8"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 27,
+            "name": "defenseValue",
+            "nodeType": "VariableDeclaration",
+            "scope": 130,
+            "src": "399:28:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint8",
+              "typeString": "uint8"
+            },
+            "typeName": {
+              "id": 26,
+              "name": "uint8",
+              "nodeType": "ElementaryTypeName",
+              "src": "399:5:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint8",
+                "typeString": "uint8"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 29,
+            "name": "speed",
+            "nodeType": "VariableDeclaration",
+            "scope": 130,
+            "src": "433:21:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint8",
+              "typeString": "uint8"
+            },
+            "typeName": {
+              "id": 28,
+              "name": "uint8",
+              "nodeType": "ElementaryTypeName",
+              "src": "433:5:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint8",
+                "typeString": "uint8"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 31,
+            "name": "cost",
+            "nodeType": "VariableDeclaration",
+            "scope": 130,
+            "src": "460:20:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint8",
+              "typeString": "uint8"
+            },
+            "typeName": {
+              "id": 30,
+              "name": "uint8",
+              "nodeType": "ElementaryTypeName",
+              "src": "460:5:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint8",
+                "typeString": "uint8"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 33,
+            "name": "name",
+            "nodeType": "VariableDeclaration",
+            "scope": 130,
+            "src": "561:20:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 32,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "561:6:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 35,
+            "name": "note",
+            "nodeType": "VariableDeclaration",
+            "scope": 130,
+            "src": "587:20:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 34,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "587:6:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 37,
+            "name": "cardCategory",
+            "nodeType": "VariableDeclaration",
+            "scope": 130,
+            "src": "613:31:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_enum$_CardType_$9",
+              "typeString": "enum Card.CardType"
+            },
+            "typeName": {
+              "contractScope": null,
+              "id": 36,
+              "name": "CardType",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 9,
+              "src": "613:8:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_enum$_CardType_$9",
+                "typeString": "enum Card.CardType"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 39,
+            "name": "rareType",
+            "nodeType": "VariableDeclaration",
+            "scope": 130,
+            "src": "650:24:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_enum$_Rarity_$15",
+              "typeString": "enum Card.Rarity"
+            },
+            "typeName": {
+              "contractScope": null,
+              "id": 38,
+              "name": "Rarity",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 15,
+              "src": "650:6:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_enum$_Rarity_$15",
+                "typeString": "enum Card.Rarity"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 42,
+            "name": "totalAmount",
+            "nodeType": "VariableDeclaration",
+            "scope": 130,
+            "src": "681:30:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_array$_t_uint8_$dyn_storage",
+              "typeString": "uint8[]"
+            },
+            "typeName": {
+              "baseType": {
+                "id": 40,
+                "name": "uint8",
+                "nodeType": "ElementaryTypeName",
+                "src": "681:5:0",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint8",
+                  "typeString": "uint8"
+                }
+              },
+              "id": 41,
+              "length": null,
+              "nodeType": "ArrayTypeName",
+              "src": "681:7:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_array$_t_uint8_$dyn_storage_ptr",
+                "typeString": "uint8[]"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 45,
+            "name": "cardList",
+            "nodeType": "VariableDeclaration",
+            "scope": 130,
+            "src": "768:28:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_array$_t_uint8_$dyn_storage",
+              "typeString": "uint8[]"
+            },
+            "typeName": {
+              "baseType": {
+                "id": 43,
+                "name": "uint8",
+                "nodeType": "ElementaryTypeName",
+                "src": "768:5:0",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint8",
+                  "typeString": "uint8"
+                }
+              },
+              "id": 44,
+              "length": null,
+              "nodeType": "ArrayTypeName",
+              "src": "768:7:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_array$_t_uint8_$dyn_storage_ptr",
+                "typeString": "uint8[]"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 49,
+            "name": "playerCardsCount",
+            "nodeType": "VariableDeclaration",
+            "scope": 130,
+            "src": "833:49:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_CardHolder_$58_storage_$",
+              "typeString": "mapping(address => struct Card.CardHolder)"
+            },
+            "typeName": {
+              "id": 48,
+              "keyType": {
+                "id": 46,
+                "name": "address",
+                "nodeType": "ElementaryTypeName",
+                "src": "842:7:0",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "833:31:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_CardHolder_$58_storage_$",
+                "typeString": "mapping(address => struct Card.CardHolder)"
+              },
+              "valueType": {
+                "contractScope": null,
+                "id": 47,
+                "name": "CardHolder",
+                "nodeType": "UserDefinedTypeName",
+                "referencedDeclaration": 58,
+                "src": "853:10:0",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_struct$_CardHolder_$58_storage_ptr",
+                  "typeString": "struct Card.CardHolder"
+                }
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 53,
+            "name": "cardAvailable",
+            "nodeType": "VariableDeclaration",
+            "scope": 130,
+            "src": "923:41:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_uint8_$_t_uint8_$",
+              "typeString": "mapping(uint8 => uint8)"
+            },
+            "typeName": {
+              "id": 52,
+              "keyType": {
+                "id": 50,
+                "name": "uint8",
+                "nodeType": "ElementaryTypeName",
+                "src": "932:5:0",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint8",
+                  "typeString": "uint8"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "923:24:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_uint8_$_t_uint8_$",
+                "typeString": "mapping(uint8 => uint8)"
+              },
+              "valueType": {
+                "id": 51,
+                "name": "uint8",
+                "nodeType": "ElementaryTypeName",
+                "src": "941:5:0",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint8",
+                  "typeString": "uint8"
+                }
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "canonicalName": "Card.CardHolder",
+            "id": 58,
+            "members": [
+              {
+                "constant": false,
+                "id": 55,
+                "name": "cardId",
+                "nodeType": "VariableDeclaration",
+                "scope": 58,
+                "src": "1034:14:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint8",
+                  "typeString": "uint8"
+                },
+                "typeName": {
+                  "id": 54,
+                  "name": "uint8",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "1034:5:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 57,
+                "name": "amount",
+                "nodeType": "VariableDeclaration",
+                "scope": 58,
+                "src": "1058:14:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint8",
+                  "typeString": "uint8"
+                },
+                "typeName": {
+                  "id": 56,
+                  "name": "uint8",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "1058:5:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "CardHolder",
+            "nodeType": "StructDefinition",
+            "scope": 130,
+            "src": "1006:73:0",
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 61,
+              "nodeType": "Block",
+              "src": "1108:8:0",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 62,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 59,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1096:2:0"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 60,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1108:0:0"
+            },
+            "scope": 130,
+            "src": "1085:31:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 71,
+              "nodeType": "Block",
+              "src": "1167:35:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 69,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 67,
+                      "name": "defenseValue",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 27,
+                      "src": "1177:12:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 68,
+                      "name": "value",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 64,
+                      "src": "1190:5:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "src": "1177:18:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "id": 70,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1177:18:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 72,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "setDefenseValue",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 65,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 64,
+                  "name": "value",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 72,
+                  "src": "1147:11:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 63,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1147:5:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1146:13:0"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 66,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1167:0:0"
+            },
+            "scope": 130,
+            "src": "1122:80:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 106,
+              "nodeType": "Block",
+              "src": "1243:226:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "commonType": {
+                          "typeIdentifier": "t_uint8",
+                          "typeString": "uint8"
+                        },
+                        "id": 82,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "argumentTypes": null,
+                          "arguments": [],
+                          "expression": {
+                            "argumentTypes": [],
+                            "expression": {
+                              "argumentTypes": null,
+                              "id": 78,
+                              "name": "target",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 74,
+                              "src": "1290:6:0",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_contract$_Card_$130",
+                                "typeString": "contract Card"
+                              }
+                            },
+                            "id": 79,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "memberName": "defenseValue",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": 27,
+                            "src": "1290:19:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_function_external_view$__$returns$_t_uint8_$",
+                              "typeString": "function () view external returns (uint8)"
+                            }
+                          },
+                          "id": 80,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "kind": "functionCall",
+                          "lValueRequested": false,
+                          "names": [],
+                          "nodeType": "FunctionCall",
+                          "src": "1290:21:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint8",
+                            "typeString": "uint8"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": ">",
+                        "rightExpression": {
+                          "argumentTypes": null,
+                          "hexValue": "30",
+                          "id": 81,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1314:1:0",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_0_by_1",
+                            "typeString": "int_const 0"
+                          },
+                          "value": "0"
+                        },
+                        "src": "1290:25:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      ],
+                      "id": 77,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        287,
+                        288
+                      ],
+                      "referencedDeclaration": 287,
+                      "src": "1282:7:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
+                        "typeString": "function (bool) pure"
+                      }
+                    },
+                    "id": 83,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1282:34:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 84,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1282:34:0"
+                },
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    },
+                    "id": 91,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "arguments": [],
+                      "expression": {
+                        "argumentTypes": [],
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 85,
+                          "name": "target",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 74,
+                          "src": "1329:6:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_contract$_Card_$130",
+                            "typeString": "contract Card"
+                          }
+                        },
+                        "id": 86,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "defenseValue",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 27,
+                        "src": "1329:19:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_external_view$__$returns$_t_uint8_$",
+                          "typeString": "function () view external returns (uint8)"
+                        }
+                      },
+                      "id": 87,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "1329:21:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": ">",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "arguments": [],
+                      "expression": {
+                        "argumentTypes": [],
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 88,
+                          "name": "this",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 303,
+                          "src": "1353:4:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_contract$_Card_$130",
+                            "typeString": "contract Card"
+                          }
+                        },
+                        "id": 89,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "attackValue",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 25,
+                        "src": "1353:16:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_external_view$__$returns$_t_uint8_$",
+                          "typeString": "function () view external returns (uint8)"
+                        }
+                      },
+                      "id": 90,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "1353:18:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "src": "1329:42:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 105,
+                  "nodeType": "IfStatement",
+                  "src": "1326:137:0",
+                  "trueBody": {
+                    "id": 104,
+                    "nodeType": "Block",
+                    "src": "1372:91:0",
+                    "statements": [
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "arguments": [
+                            {
+                              "argumentTypes": null,
+                              "commonType": {
+                                "typeIdentifier": "t_uint8",
+                                "typeString": "uint8"
+                              },
+                              "id": 101,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "leftExpression": {
+                                "argumentTypes": null,
+                                "arguments": [],
+                                "expression": {
+                                  "argumentTypes": [],
+                                  "expression": {
+                                    "argumentTypes": null,
+                                    "id": 95,
+                                    "name": "target",
+                                    "nodeType": "Identifier",
+                                    "overloadedDeclarations": [],
+                                    "referencedDeclaration": 74,
+                                    "src": "1409:6:0",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_contract$_Card_$130",
+                                      "typeString": "contract Card"
+                                    }
+                                  },
+                                  "id": 96,
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "memberName": "defenseValue",
+                                  "nodeType": "MemberAccess",
+                                  "referencedDeclaration": 27,
+                                  "src": "1409:19:0",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_function_external_view$__$returns$_t_uint8_$",
+                                    "typeString": "function () view external returns (uint8)"
+                                  }
+                                },
+                                "id": 97,
+                                "isConstant": false,
+                                "isLValue": false,
+                                "isPure": false,
+                                "kind": "functionCall",
+                                "lValueRequested": false,
+                                "names": [],
+                                "nodeType": "FunctionCall",
+                                "src": "1409:21:0",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_uint8",
+                                  "typeString": "uint8"
+                                }
+                              },
+                              "nodeType": "BinaryOperation",
+                              "operator": "-",
+                              "rightExpression": {
+                                "argumentTypes": null,
+                                "arguments": [],
+                                "expression": {
+                                  "argumentTypes": [],
+                                  "expression": {
+                                    "argumentTypes": null,
+                                    "id": 98,
+                                    "name": "this",
+                                    "nodeType": "Identifier",
+                                    "overloadedDeclarations": [],
+                                    "referencedDeclaration": 303,
+                                    "src": "1433:4:0",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_contract$_Card_$130",
+                                      "typeString": "contract Card"
+                                    }
+                                  },
+                                  "id": 99,
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "memberName": "attackValue",
+                                  "nodeType": "MemberAccess",
+                                  "referencedDeclaration": 25,
+                                  "src": "1433:16:0",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_function_external_view$__$returns$_t_uint8_$",
+                                    "typeString": "function () view external returns (uint8)"
+                                  }
+                                },
+                                "id": 100,
+                                "isConstant": false,
+                                "isLValue": false,
+                                "isPure": false,
+                                "kind": "functionCall",
+                                "lValueRequested": false,
+                                "names": [],
+                                "nodeType": "FunctionCall",
+                                "src": "1433:18:0",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_uint8",
+                                  "typeString": "uint8"
+                                }
+                              },
+                              "src": "1409:42:0",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_uint8",
+                                "typeString": "uint8"
+                              }
+                            }
+                          ],
+                          "expression": {
+                            "argumentTypes": [
+                              {
+                                "typeIdentifier": "t_uint8",
+                                "typeString": "uint8"
+                              }
+                            ],
+                            "expression": {
+                              "argumentTypes": null,
+                              "id": 92,
+                              "name": "target",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 74,
+                              "src": "1386:6:0",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_contract$_Card_$130",
+                                "typeString": "contract Card"
+                              }
+                            },
+                            "id": 94,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "memberName": "setDefenseValue",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": 72,
+                            "src": "1386:22:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_function_external_nonpayable$_t_uint8_$returns$__$",
+                              "typeString": "function (uint8) external"
+                            }
+                          },
+                          "id": 102,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "kind": "functionCall",
+                          "lValueRequested": false,
+                          "names": [],
+                          "nodeType": "FunctionCall",
+                          "src": "1386:66:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_tuple$__$",
+                            "typeString": "tuple()"
+                          }
+                        },
+                        "id": 103,
+                        "nodeType": "ExpressionStatement",
+                        "src": "1386:66:0"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 107,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "attack",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 75,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 74,
+                  "name": "target",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 107,
+                  "src": "1224:11:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_Card_$130",
+                    "typeString": "contract Card"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 73,
+                    "name": "Card",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 130,
+                    "src": "1224:4:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_Card_$130",
+                      "typeString": "contract Card"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1223:13:0"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 76,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1243:0:0"
+            },
+            "scope": 130,
+            "src": "1208:261:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 112,
+              "nodeType": "Block",
+              "src": "1510:36:0",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 113,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "defend",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 110,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 109,
+                  "name": "target",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 113,
+                  "src": "1491:11:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_Card_$130",
+                    "typeString": "contract Card"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 108,
+                    "name": "Card",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 130,
+                    "src": "1491:4:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_Card_$130",
+                      "typeString": "contract Card"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1490:13:0"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 111,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1510:0:0"
+            },
+            "scope": 130,
+            "src": "1475:71:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 118,
+              "nodeType": "Block",
+              "src": "1587:42:0",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 119,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "list",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 116,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 115,
+                  "name": "owner",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 119,
+                  "src": "1566:13:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 114,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1566:7:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1565:15:0"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 117,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1587:0:0"
+            },
+            "scope": 130,
+            "src": "1552:77:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 128,
+              "nodeType": "Block",
+              "src": "1699:44:0",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 129,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "transfer",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 126,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 121,
+                  "name": "from",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 129,
+                  "src": "1653:12:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 120,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1653:7:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 123,
+                  "name": "to",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 129,
+                  "src": "1667:10:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 122,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1667:7:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 125,
+                  "name": "cardId",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 129,
+                  "src": "1679:12:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 124,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1679:5:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1652:40:0"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 127,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1699:0:0"
+            },
+            "scope": 130,
+            "src": "1635:108:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 131,
+        "src": "110:1635:0"
+      }
+    ],
+    "src": "0:1746:0"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/tangshumin/learn/fyjh/contracts/Card.sol",
+    "exportedSymbols": {
+      "Card": [
+        130
+      ]
+    },
+    "id": 131,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".23"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:0"
+      },
+      {
+        "absolutePath": "zeppelin-solidity/contracts/token/ERC20/ERC20.sol",
+        "file": "zeppelin-solidity/contracts/token/ERC20/ERC20.sol",
+        "id": 2,
+        "nodeType": "ImportDirective",
+        "scope": 131,
+        "sourceUnit": 238,
+        "src": "26:59:0",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/Users/tangshumin/learn/fyjh/contracts/Effect.sol",
+        "file": "./Effect.sol",
+        "id": 3,
+        "nodeType": "ImportDirective",
+        "scope": 131,
+        "sourceUnit": 152,
+        "src": "86:22:0",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 4,
+              "name": "ERC20",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 237,
+              "src": "127:5:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_ERC20_$237",
+                "typeString": "contract ERC20"
+              }
+            },
+            "id": 5,
+            "nodeType": "InheritanceSpecifier",
+            "src": "127:5:0"
+          }
+        ],
+        "contractDependencies": [
+          237,
+          269
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 130,
+        "linearizedBaseContracts": [
+          130,
+          237,
+          269
+        ],
+        "name": "Card",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "Card.CardType",
+            "id": 9,
+            "members": [
+              {
+                "id": 6,
+                "name": "Fellow",
+                "nodeType": "EnumValue",
+                "src": "158:6:0"
+              },
+              {
+                "id": 7,
+                "name": "Strategy",
+                "nodeType": "EnumValue",
+                "src": "165:8:0"
+              },
+              {
+                "id": 8,
+                "name": "Tool",
+                "nodeType": "EnumValue",
+                "src": "174:4:0"
+              }
+            ],
+            "name": "CardType",
+            "nodeType": "EnumDefinition",
+            "src": "140:39:0"
+          },
+          {
+            "canonicalName": "Card.Rarity",
+            "id": 15,
+            "members": [
+              {
+                "id": 10,
+                "name": "Standard",
+                "nodeType": "EnumValue",
+                "src": "200:8:0"
+              },
+              {
+                "id": 11,
+                "name": "Normal",
+                "nodeType": "EnumValue",
+                "src": "209:6:0"
+              },
+              {
+                "id": 12,
+                "name": "Uncommon",
+                "nodeType": "EnumValue",
+                "src": "216:8:0"
+              },
+              {
+                "id": 13,
+                "name": "OutStanding",
+                "nodeType": "EnumValue",
+                "src": "225:11:0"
+              },
+              {
+                "id": 14,
+                "name": "Unique",
+                "nodeType": "EnumValue",
+                "src": "237:6:0"
+              }
+            ],
+            "name": "Rarity",
+            "nodeType": "EnumDefinition",
+            "src": "184:60:0"
+          },
+          {
+            "constant": false,
+            "id": 17,
+            "name": "id",
+            "nodeType": "VariableDeclaration",
+            "scope": 130,
+            "src": "249:18:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 16,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "249:4:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 19,
+            "name": "effect",
+            "nodeType": "VariableDeclaration",
+            "scope": 130,
+            "src": "273:22:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_Effect_$151",
+              "typeString": "contract Effect"
+            },
+            "typeName": {
+              "contractScope": null,
+              "id": 18,
+              "name": "Effect",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 151,
+              "src": "273:6:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Effect_$151",
+                "typeString": "contract Effect"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 21,
+            "name": "frontImgUrl",
+            "nodeType": "VariableDeclaration",
+            "scope": 130,
+            "src": "301:27:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 20,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "301:6:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 23,
+            "name": "backImgUrl",
+            "nodeType": "VariableDeclaration",
+            "scope": 130,
+            "src": "334:26:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 22,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "334:6:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 25,
+            "name": "attackValue",
+            "nodeType": "VariableDeclaration",
+            "scope": 130,
+            "src": "366:27:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint8",
+              "typeString": "uint8"
+            },
+            "typeName": {
+              "id": 24,
+              "name": "uint8",
+              "nodeType": "ElementaryTypeName",
+              "src": "366:5:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint8",
+                "typeString": "uint8"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 27,
+            "name": "defenseValue",
+            "nodeType": "VariableDeclaration",
+            "scope": 130,
+            "src": "399:28:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint8",
+              "typeString": "uint8"
+            },
+            "typeName": {
+              "id": 26,
+              "name": "uint8",
+              "nodeType": "ElementaryTypeName",
+              "src": "399:5:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint8",
+                "typeString": "uint8"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 29,
+            "name": "speed",
+            "nodeType": "VariableDeclaration",
+            "scope": 130,
+            "src": "433:21:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint8",
+              "typeString": "uint8"
+            },
+            "typeName": {
+              "id": 28,
+              "name": "uint8",
+              "nodeType": "ElementaryTypeName",
+              "src": "433:5:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint8",
+                "typeString": "uint8"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 31,
+            "name": "cost",
+            "nodeType": "VariableDeclaration",
+            "scope": 130,
+            "src": "460:20:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint8",
+              "typeString": "uint8"
+            },
+            "typeName": {
+              "id": 30,
+              "name": "uint8",
+              "nodeType": "ElementaryTypeName",
+              "src": "460:5:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint8",
+                "typeString": "uint8"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 33,
+            "name": "name",
+            "nodeType": "VariableDeclaration",
+            "scope": 130,
+            "src": "561:20:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 32,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "561:6:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 35,
+            "name": "note",
+            "nodeType": "VariableDeclaration",
+            "scope": 130,
+            "src": "587:20:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 34,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "587:6:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 37,
+            "name": "cardCategory",
+            "nodeType": "VariableDeclaration",
+            "scope": 130,
+            "src": "613:31:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_enum$_CardType_$9",
+              "typeString": "enum Card.CardType"
+            },
+            "typeName": {
+              "contractScope": null,
+              "id": 36,
+              "name": "CardType",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 9,
+              "src": "613:8:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_enum$_CardType_$9",
+                "typeString": "enum Card.CardType"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 39,
+            "name": "rareType",
+            "nodeType": "VariableDeclaration",
+            "scope": 130,
+            "src": "650:24:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_enum$_Rarity_$15",
+              "typeString": "enum Card.Rarity"
+            },
+            "typeName": {
+              "contractScope": null,
+              "id": 38,
+              "name": "Rarity",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 15,
+              "src": "650:6:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_enum$_Rarity_$15",
+                "typeString": "enum Card.Rarity"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 42,
+            "name": "totalAmount",
+            "nodeType": "VariableDeclaration",
+            "scope": 130,
+            "src": "681:30:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_array$_t_uint8_$dyn_storage",
+              "typeString": "uint8[]"
+            },
+            "typeName": {
+              "baseType": {
+                "id": 40,
+                "name": "uint8",
+                "nodeType": "ElementaryTypeName",
+                "src": "681:5:0",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint8",
+                  "typeString": "uint8"
+                }
+              },
+              "id": 41,
+              "length": null,
+              "nodeType": "ArrayTypeName",
+              "src": "681:7:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_array$_t_uint8_$dyn_storage_ptr",
+                "typeString": "uint8[]"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 45,
+            "name": "cardList",
+            "nodeType": "VariableDeclaration",
+            "scope": 130,
+            "src": "768:28:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_array$_t_uint8_$dyn_storage",
+              "typeString": "uint8[]"
+            },
+            "typeName": {
+              "baseType": {
+                "id": 43,
+                "name": "uint8",
+                "nodeType": "ElementaryTypeName",
+                "src": "768:5:0",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint8",
+                  "typeString": "uint8"
+                }
+              },
+              "id": 44,
+              "length": null,
+              "nodeType": "ArrayTypeName",
+              "src": "768:7:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_array$_t_uint8_$dyn_storage_ptr",
+                "typeString": "uint8[]"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 49,
+            "name": "playerCardsCount",
+            "nodeType": "VariableDeclaration",
+            "scope": 130,
+            "src": "833:49:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_CardHolder_$58_storage_$",
+              "typeString": "mapping(address => struct Card.CardHolder)"
+            },
+            "typeName": {
+              "id": 48,
+              "keyType": {
+                "id": 46,
+                "name": "address",
+                "nodeType": "ElementaryTypeName",
+                "src": "842:7:0",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "833:31:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_CardHolder_$58_storage_$",
+                "typeString": "mapping(address => struct Card.CardHolder)"
+              },
+              "valueType": {
+                "contractScope": null,
+                "id": 47,
+                "name": "CardHolder",
+                "nodeType": "UserDefinedTypeName",
+                "referencedDeclaration": 58,
+                "src": "853:10:0",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_struct$_CardHolder_$58_storage_ptr",
+                  "typeString": "struct Card.CardHolder"
+                }
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 53,
+            "name": "cardAvailable",
+            "nodeType": "VariableDeclaration",
+            "scope": 130,
+            "src": "923:41:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_uint8_$_t_uint8_$",
+              "typeString": "mapping(uint8 => uint8)"
+            },
+            "typeName": {
+              "id": 52,
+              "keyType": {
+                "id": 50,
+                "name": "uint8",
+                "nodeType": "ElementaryTypeName",
+                "src": "932:5:0",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint8",
+                  "typeString": "uint8"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "923:24:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_uint8_$_t_uint8_$",
+                "typeString": "mapping(uint8 => uint8)"
+              },
+              "valueType": {
+                "id": 51,
+                "name": "uint8",
+                "nodeType": "ElementaryTypeName",
+                "src": "941:5:0",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint8",
+                  "typeString": "uint8"
+                }
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "canonicalName": "Card.CardHolder",
+            "id": 58,
+            "members": [
+              {
+                "constant": false,
+                "id": 55,
+                "name": "cardId",
+                "nodeType": "VariableDeclaration",
+                "scope": 58,
+                "src": "1034:14:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint8",
+                  "typeString": "uint8"
+                },
+                "typeName": {
+                  "id": 54,
+                  "name": "uint8",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "1034:5:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 57,
+                "name": "amount",
+                "nodeType": "VariableDeclaration",
+                "scope": 58,
+                "src": "1058:14:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint8",
+                  "typeString": "uint8"
+                },
+                "typeName": {
+                  "id": 56,
+                  "name": "uint8",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "1058:5:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "CardHolder",
+            "nodeType": "StructDefinition",
+            "scope": 130,
+            "src": "1006:73:0",
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 61,
+              "nodeType": "Block",
+              "src": "1108:8:0",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 62,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 59,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1096:2:0"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 60,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1108:0:0"
+            },
+            "scope": 130,
+            "src": "1085:31:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 71,
+              "nodeType": "Block",
+              "src": "1167:35:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 69,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 67,
+                      "name": "defenseValue",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 27,
+                      "src": "1177:12:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 68,
+                      "name": "value",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 64,
+                      "src": "1190:5:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "src": "1177:18:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "id": 70,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1177:18:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 72,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "setDefenseValue",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 65,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 64,
+                  "name": "value",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 72,
+                  "src": "1147:11:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 63,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1147:5:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1146:13:0"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 66,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1167:0:0"
+            },
+            "scope": 130,
+            "src": "1122:80:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 106,
+              "nodeType": "Block",
+              "src": "1243:226:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "commonType": {
+                          "typeIdentifier": "t_uint8",
+                          "typeString": "uint8"
+                        },
+                        "id": 82,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "argumentTypes": null,
+                          "arguments": [],
+                          "expression": {
+                            "argumentTypes": [],
+                            "expression": {
+                              "argumentTypes": null,
+                              "id": 78,
+                              "name": "target",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 74,
+                              "src": "1290:6:0",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_contract$_Card_$130",
+                                "typeString": "contract Card"
+                              }
+                            },
+                            "id": 79,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "memberName": "defenseValue",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": 27,
+                            "src": "1290:19:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_function_external_view$__$returns$_t_uint8_$",
+                              "typeString": "function () view external returns (uint8)"
+                            }
+                          },
+                          "id": 80,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "kind": "functionCall",
+                          "lValueRequested": false,
+                          "names": [],
+                          "nodeType": "FunctionCall",
+                          "src": "1290:21:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint8",
+                            "typeString": "uint8"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": ">",
+                        "rightExpression": {
+                          "argumentTypes": null,
+                          "hexValue": "30",
+                          "id": 81,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1314:1:0",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_0_by_1",
+                            "typeString": "int_const 0"
+                          },
+                          "value": "0"
+                        },
+                        "src": "1290:25:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      ],
+                      "id": 77,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        287,
+                        288
+                      ],
+                      "referencedDeclaration": 287,
+                      "src": "1282:7:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
+                        "typeString": "function (bool) pure"
+                      }
+                    },
+                    "id": 83,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1282:34:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 84,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1282:34:0"
+                },
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    },
+                    "id": 91,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "arguments": [],
+                      "expression": {
+                        "argumentTypes": [],
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 85,
+                          "name": "target",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 74,
+                          "src": "1329:6:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_contract$_Card_$130",
+                            "typeString": "contract Card"
+                          }
+                        },
+                        "id": 86,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "defenseValue",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 27,
+                        "src": "1329:19:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_external_view$__$returns$_t_uint8_$",
+                          "typeString": "function () view external returns (uint8)"
+                        }
+                      },
+                      "id": 87,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "1329:21:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": ">",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "arguments": [],
+                      "expression": {
+                        "argumentTypes": [],
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 88,
+                          "name": "this",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 303,
+                          "src": "1353:4:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_contract$_Card_$130",
+                            "typeString": "contract Card"
+                          }
+                        },
+                        "id": 89,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "attackValue",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 25,
+                        "src": "1353:16:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_external_view$__$returns$_t_uint8_$",
+                          "typeString": "function () view external returns (uint8)"
+                        }
+                      },
+                      "id": 90,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "1353:18:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint8",
+                        "typeString": "uint8"
+                      }
+                    },
+                    "src": "1329:42:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 105,
+                  "nodeType": "IfStatement",
+                  "src": "1326:137:0",
+                  "trueBody": {
+                    "id": 104,
+                    "nodeType": "Block",
+                    "src": "1372:91:0",
+                    "statements": [
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "arguments": [
+                            {
+                              "argumentTypes": null,
+                              "commonType": {
+                                "typeIdentifier": "t_uint8",
+                                "typeString": "uint8"
+                              },
+                              "id": 101,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "leftExpression": {
+                                "argumentTypes": null,
+                                "arguments": [],
+                                "expression": {
+                                  "argumentTypes": [],
+                                  "expression": {
+                                    "argumentTypes": null,
+                                    "id": 95,
+                                    "name": "target",
+                                    "nodeType": "Identifier",
+                                    "overloadedDeclarations": [],
+                                    "referencedDeclaration": 74,
+                                    "src": "1409:6:0",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_contract$_Card_$130",
+                                      "typeString": "contract Card"
+                                    }
+                                  },
+                                  "id": 96,
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "memberName": "defenseValue",
+                                  "nodeType": "MemberAccess",
+                                  "referencedDeclaration": 27,
+                                  "src": "1409:19:0",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_function_external_view$__$returns$_t_uint8_$",
+                                    "typeString": "function () view external returns (uint8)"
+                                  }
+                                },
+                                "id": 97,
+                                "isConstant": false,
+                                "isLValue": false,
+                                "isPure": false,
+                                "kind": "functionCall",
+                                "lValueRequested": false,
+                                "names": [],
+                                "nodeType": "FunctionCall",
+                                "src": "1409:21:0",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_uint8",
+                                  "typeString": "uint8"
+                                }
+                              },
+                              "nodeType": "BinaryOperation",
+                              "operator": "-",
+                              "rightExpression": {
+                                "argumentTypes": null,
+                                "arguments": [],
+                                "expression": {
+                                  "argumentTypes": [],
+                                  "expression": {
+                                    "argumentTypes": null,
+                                    "id": 98,
+                                    "name": "this",
+                                    "nodeType": "Identifier",
+                                    "overloadedDeclarations": [],
+                                    "referencedDeclaration": 303,
+                                    "src": "1433:4:0",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_contract$_Card_$130",
+                                      "typeString": "contract Card"
+                                    }
+                                  },
+                                  "id": 99,
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "memberName": "attackValue",
+                                  "nodeType": "MemberAccess",
+                                  "referencedDeclaration": 25,
+                                  "src": "1433:16:0",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_function_external_view$__$returns$_t_uint8_$",
+                                    "typeString": "function () view external returns (uint8)"
+                                  }
+                                },
+                                "id": 100,
+                                "isConstant": false,
+                                "isLValue": false,
+                                "isPure": false,
+                                "kind": "functionCall",
+                                "lValueRequested": false,
+                                "names": [],
+                                "nodeType": "FunctionCall",
+                                "src": "1433:18:0",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_uint8",
+                                  "typeString": "uint8"
+                                }
+                              },
+                              "src": "1409:42:0",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_uint8",
+                                "typeString": "uint8"
+                              }
+                            }
+                          ],
+                          "expression": {
+                            "argumentTypes": [
+                              {
+                                "typeIdentifier": "t_uint8",
+                                "typeString": "uint8"
+                              }
+                            ],
+                            "expression": {
+                              "argumentTypes": null,
+                              "id": 92,
+                              "name": "target",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 74,
+                              "src": "1386:6:0",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_contract$_Card_$130",
+                                "typeString": "contract Card"
+                              }
+                            },
+                            "id": 94,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "memberName": "setDefenseValue",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": 72,
+                            "src": "1386:22:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_function_external_nonpayable$_t_uint8_$returns$__$",
+                              "typeString": "function (uint8) external"
+                            }
+                          },
+                          "id": 102,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "kind": "functionCall",
+                          "lValueRequested": false,
+                          "names": [],
+                          "nodeType": "FunctionCall",
+                          "src": "1386:66:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_tuple$__$",
+                            "typeString": "tuple()"
+                          }
+                        },
+                        "id": 103,
+                        "nodeType": "ExpressionStatement",
+                        "src": "1386:66:0"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 107,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "attack",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 75,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 74,
+                  "name": "target",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 107,
+                  "src": "1224:11:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_Card_$130",
+                    "typeString": "contract Card"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 73,
+                    "name": "Card",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 130,
+                    "src": "1224:4:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_Card_$130",
+                      "typeString": "contract Card"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1223:13:0"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 76,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1243:0:0"
+            },
+            "scope": 130,
+            "src": "1208:261:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 112,
+              "nodeType": "Block",
+              "src": "1510:36:0",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 113,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "defend",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 110,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 109,
+                  "name": "target",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 113,
+                  "src": "1491:11:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_Card_$130",
+                    "typeString": "contract Card"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 108,
+                    "name": "Card",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 130,
+                    "src": "1491:4:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_Card_$130",
+                      "typeString": "contract Card"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1490:13:0"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 111,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1510:0:0"
+            },
+            "scope": 130,
+            "src": "1475:71:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 118,
+              "nodeType": "Block",
+              "src": "1587:42:0",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 119,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "list",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 116,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 115,
+                  "name": "owner",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 119,
+                  "src": "1566:13:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 114,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1566:7:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1565:15:0"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 117,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1587:0:0"
+            },
+            "scope": 130,
+            "src": "1552:77:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 128,
+              "nodeType": "Block",
+              "src": "1699:44:0",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 129,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "transfer",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 126,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 121,
+                  "name": "from",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 129,
+                  "src": "1653:12:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 120,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1653:7:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 123,
+                  "name": "to",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 129,
+                  "src": "1667:10:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 122,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1667:7:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 125,
+                  "name": "cardId",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 129,
+                  "src": "1679:12:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 124,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1679:5:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1652:40:0"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 127,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1699:0:0"
+            },
+            "scope": 130,
+            "src": "1635:108:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 131,
+        "src": "110:1635:0"
+      }
+    ],
+    "src": "0:1746:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.1",
+  "updatedAt": "2018-10-22T11:53:22.894Z"
+}
